@@ -49,6 +49,7 @@ extension ChatViewController {
     }
     
     func setupChatToolBar()  {
+        self.inputToolbar.contentView.rightBarButtonItemWidth = 90
         self.collectionView.collectionViewLayout.incomingAvatarViewSize = CGSizeZero;
         self.collectionView.collectionViewLayout.outgoingAvatarViewSize = CGSizeZero;
         
