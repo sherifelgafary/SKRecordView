@@ -67,7 +67,9 @@ class SKRecordView: UIView, AVAudioPlayerDelegate, AVAudioRecorderDelegate {
         var fileName = "audioFile.m4a"
         var recordingAnimationDuration = 0.5
         var recordingLabelText = "<<< Slide to cancel"
-        
+        var recordingLabelTextColor = UIColor.blackColor()
+        var recordingCounterLabelTextColor = UIColor.redColor()
+    
         weak var delegate : SKRecordViewDelegate?
         
         override init(frame: CGRect) {
@@ -124,7 +126,7 @@ class SKRecordView: UIView, AVAudioPlayerDelegate, AVAudioRecorderDelegate {
         slideToCancel.alpha = 0.0
         slideToCancel.font = UIFont(name: "Lato-Bold", size: 17)
         slideToCancel.textAlignment = .Center
-        slideToCancel.textColor = UIColor.blackColor()
+        slideToCancel.textColor = self.recordingLabelTextColor
         }
         
         
@@ -144,7 +146,7 @@ class SKRecordView: UIView, AVAudioPlayerDelegate, AVAudioRecorderDelegate {
         countDownLabel.alpha = 0.0
         countDownLabel.font = UIFont(name: "Lato-Bold", size: 17)
         countDownLabel.textAlignment = .Center
-        countDownLabel.textColor = UIColor.redColor()
+        countDownLabel.textColor = self.recordingCounterLabelTextColor
         
         
         
