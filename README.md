@@ -1,8 +1,9 @@
 # SKRecordView
 ![record](https://cloud.githubusercontent.com/assets/5552822/19554843/b3d37916-96ba-11e6-8330-53fd63bdb6b0.gif)
 
-Have you ever wanted a new animated recording module for your app which can act like the whats app recording module instead of a static recording button SKRecordView is customisable aimatable recording module which resembles the whats app recording and it's so easy to integrate and use in your project and all it's componants are customizable hope you enjoy using it and contact me for any improvements needed for this module
-
+have you ever wanted an animated voice recorder rather than the normal recoreding button, 
+the SKRecordView is customizable animated recoreding module which is similar to WhatsApp recording and it is so easy to integrate and use in your project also all components are customizable, 
+hope you enjoy using it , any improvemnts are most-welcomed
 ## Requirements
 
 - iOS 7.0+
